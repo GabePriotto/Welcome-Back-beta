@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="game.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distant Traveler - Alpha version</title>
+    <script src="game.js" defer></script>
+</head>
+<body>
+ <div class="central"> 
+        <div class="big-div">
+        <video width="640" height="360" controls src="Distant Traveler.exe.mp4"></video>
+        <div class="container-omega"></div>
+        <div>
+        <button id="start-btn">Começar o Jogo</button>
+    </div>
+    <div id="game-content" class="hidden">
+        <h2 id="question">Qual é esse Distant Place?</h2>
+        <img id="question-img" src="" alt="" width="400">
+    <div>
+        <input type="text" id="answer-input" placeholder="Digite sua resposta...">
+        <button id="submit-btn">Continuar</button>
+    </div>
+    <p id="feedback" class="hidden"></p>
+    </div>
+    <div id="score" class="hidden">Pontuação: 0</div>
+    </div>
+<!-- </div> -->
+</body>
+</html>

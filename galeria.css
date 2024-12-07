@@ -1,0 +1,137 @@
+header {
+    background-image: url('1_c8044c01-c106-414c-b8ed-6e6f31be7f0e.jpg');
+    height: 250px;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center 70%;
+    position: relative;
+    border-bottom: white solid 3px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.título {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    display: flex;
+    margin-right: 60px;
+    margin-bottom: 0;
+}
+    .big-text img {
+       position: absolute;
+       top: 40%;
+       left: 59%
+    }
+    .subtítulo {
+        margin: 0;
+        text-align: center;
+        color: white;
+        background-color: black;
+    }
+    h3.button {
+        color: white;
+        display: inline-block;
+        text-align: center;
+        margin-left: 70px;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    h3.button:hover {
+        transform: scale(1.1);
+        color: green;
+    }
+    .homepage {
+        display: flex;
+    }
+    h3.button-z {
+        color: white;
+        display: inline-block;
+        text-align: center;
+        margin-left: 230px;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    h3.button-z:hover {
+        transform: scale(1.1);
+        color: green;
+    }
+    .artbook {
+        display: flex;
+        margin-top: 50px;
+    }
+    .img-1 {
+        height: 400px;
+        width: 500px;
+        border-radius: 10px;
+        margin-left: 60px;
+    }
+    .descrição {
+        text-align: center;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 10px;
+    }
+    .caixa-2 img {
+        height: 400px;
+        width: 300px;
+        margin-left: 60px;
+        border-radius: 10px;
+    }
+    .caixa-3 img {
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left: 40px;
+    }
+    .descrição-2 {
+        text-align: center;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 45px;
+    }
+    .caixa-4 img {
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    .caixa-5 img {
+        height: 300px;
+        width: 400px;
+        border-radius: 10px;
+        margin-left: 85px;
+    }
+    .caixa-6 img {
+        height: 300px;
+        width: 400px;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    .descrição-3 {
+        text-align: center;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 70px;
+    }
+    .bottom {
+        text-align: center;
+        color: white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 10px;
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
